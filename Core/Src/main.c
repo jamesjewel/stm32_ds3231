@@ -15,6 +15,12 @@
   *
   ******************************************************************************
   */
+
+/*
+ * DS3231 -- required functions
+ * - settime(Y, M, D, h, m, s), gettime(&timestruct)
+ * - get time string in a format that is passed gettimestring(FORMAT, &str)
+ */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
